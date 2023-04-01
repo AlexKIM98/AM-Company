@@ -1,0 +1,46 @@
+.carousel-container {
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+.carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+h3{
+  font-size: 5rem;
+  color:bisque;
+  background-color: black;
+}
+
+h2{
+  color: white;
+  font-size: 2rem;
+  background-color: black;
+}
+
+
+
+p{
+  font-size: 1.5rem;
+  background-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media screen and (max-width:640px){
+
+  h3{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+}
