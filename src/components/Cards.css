@@ -1,9 +1,47 @@
 .telas{
     width: 100%;
-    padding: 6rem 1rem;
+    padding: 2rem 1rem;
     background-color: black;
 
 }
+
+.w-full{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+
+.flecha{
+    max-width: 100%;
+    height: 75px;
+     animation-name: upAndDown;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.flecha:first-child {
+    animation-delay: 0s;
+  }
+  
+  .flecha:last-child {
+    animation-delay: 0.1s;
+  }
+
+
+@keyframes upAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 
 .card-container{
@@ -29,10 +67,6 @@
 
 }
 
-.card:hover{
-    background-color: #b4b1b140;
-
-}
 
 
 .card h3{

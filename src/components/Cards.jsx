@@ -1,16 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { BsEnvelope } from "react-icons/bs";
+import flecha from '../img/flechaBlanca.png'
 import './Cards.css';
 
 const Cards = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, []);
   return (
     <div className='telas'>
          <div name='contacto' className='w-full h-screen  flex justify-center items-center p-4'>
             <div className='pb-8'> 
                 <p className='text-6xl font-bold inline border-b-4 border-red-600 text-gray-300' >TELAS</p>
                 </div>
+                <img src={flecha} className='flecha' alt='Arrow'></img>
+                <img src={flecha} className='flecha' alt='Arrow'></img>
                 </div>
+        
         <div className='card-container'>
             <div className='card'>
                 <h5>-NACIONAL-</h5>
