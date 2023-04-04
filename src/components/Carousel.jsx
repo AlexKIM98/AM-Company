@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import importado from '../img/importado.jpg'
 import nacional from '../img/fabric-3506846_1920.jpg'
@@ -7,6 +8,11 @@ import './Carousel.css';
 
 
 function CarouselH() {
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   return (
     <div className='carousel-container'>
     <Carousel>
