@@ -23,7 +23,7 @@ const Footer = () => {
                 <h4>Acerca de nosotros</h4>
                 <h5>"AM COMPANY Tratamos de superarnos día a día para consolidar nuestro liderazgo tanto en el cumplimiento de los plazos establecidos como en la calidad de nuestro trabajo. Nos afianzamos en la confianza, y esa confianza se refuerza diariamente con nuestro compromiso."</h5>
                 <div className='social'>
-                <h4><a href='https://www.instagram.com/textilam/' target='_blank' rel="noopener noreferrer" ><FaInstagram size={30} style={{color: 'red', marginRight:'1rem', marginTop:'2rem'}}/></a></h4>
+                <h4><a href='https://www.instagram.com/textilam/' target='_blank' rel="noopener noreferrer"><FaInstagram size={30} style={{color: 'red', marginRight:'1rem', marginTop:'2rem', width:'fit-content'} }/></a></h4>
                 </div>
             </div>
       </div>
